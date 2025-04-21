@@ -422,3 +422,80 @@ form button:hover {
   left: 45%;
   top: -20px;
 }
+@media (max-width: 768px) {
+    header {
+      height: auto;
+      text-align: center;
+      padding: 1rem;
+      margin: 1rem;
+    }
+  
+    header img {
+      left: 0;
+      position: static;
+      margin: 0 auto;
+      display: block;
+      width: 150px;
+    }
+  
+    header h1 {
+      position: static;
+      font-size: 1.8rem;
+      margin-top: 1rem;
+    }
+  
+    .nav {
+      left: 0;
+      top: 0;
+      position: static;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1rem;
+      gap: 1rem;
+    }
+  
+    #login {
+      left: 0;
+      top: 20px;
+      position: static;
+      margin: 1rem auto;
+      display: block;
+    }
+  
+    .img-b {
+      width: 90%;
+      left: 0;
+      position: static;
+      margin: 1rem auto;
+    }
+  
+    .project iframe,
+    .project img {
+      width: 90%;
+      left: 0;
+      position: static;
+      margin: 1rem auto;
+      display: block;
+    }
+  
+    .project button {
+      left: 0;
+      position: static;
+      margin: 1rem auto;
+      display: block;
+    }
+  
+    .a-form {
+      left: 0;
+      top: 0;
+      margin: 2rem auto;
+      display: block;
+    }
+  
+    form {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+  }
+  
